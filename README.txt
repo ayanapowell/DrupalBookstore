@@ -1,8 +1,7 @@
-# _Biggy's Books_
+Biggy's Books
+By: Ayana Powell
 
-#### _We are a bookstore in Portland, OR! Visit our site to contact us, information, and book reviews. Happy reading!_
-
-#### By _**Ayana Powell**_
+We are a bookstore in Portland, OR! Visit our site to contact us, information, and book reviews. Happy reading!
 
 Installation
 --------------------------------
