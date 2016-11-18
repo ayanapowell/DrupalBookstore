@@ -1,15 +1,35 @@
+# _Biggy's Books_
 
-CONTENTS OF THIS FILE
----------------------
+#### _We are a bookstore in Portland, OR! Visit our site to contact us, information, and book reviews. Happy reading!_
 
- * About Drupal
- * Configuration and features
- * Installation profiles
- * Appearance
- * Developing for Drupal
+#### By _**Ayana Powell**_
 
-ABOUT DRUPAL
-------------
+Installation
+--------------------------------
+
+* `git clone https://github.com/ayanapowell/DrupalBookstore` this repository
+* run MAMP, and in 'Preferences->Web Server' point the Document Root to this folder
+* Start Servers in MAMP
+* Open 'WebStart page' in MAMP and navigate to 'Tools->phpMyAdmin'
+* Import the database from 'the project folder->sites->db-backup'
+* In phpMyAdmin, under 'Privileges', add a User with the username/password for the database user
+* Navigate to localhost:8888 to view the website
+
+Technologies Used
+--------------------------------
+
+* PHP
+* Drupal
+
+_There are no known bugs at this time_
+
+Support and Contact Info:
+ --------------------------------
+
+_You can reach us with feedback, questions, or bug reports at: ayanapowell1@gmail.com_
+
+Further Reading / About Drupal
+--------------------------------
 
 Drupal is an open source content management platform supporting a variety of
 websites ranging from personal weblogs to large community-driven websites. For
@@ -22,8 +42,8 @@ Legal information about Drupal:
  * Learn about the Drupal trademark and logo policy:
    http://drupal.com/trademark
 
-CONFIGURATION AND FEATURES
---------------------------
+Configuration and Features
+--------------------------------
 
 Drupal core (what you get when you download and extract a drupal-x.y.tar.gz or
 drupal-x.y.zip file from http://drupal.org/project/drupal) has what you need to
@@ -44,80 +64,15 @@ More about configuration:
    http://drupal.org/project/modules
  * See also: "Developing for Drupal" for writing your own modules, below.
 
-INSTALLATION PROFILES
----------------------
+Licence
+--------------------------------
 
-Installation profiles define additional steps (such as enabling modules,
-defining content types, etc.) that run after the base installation provided
-by core when Drupal is first installed. There are two basic installation
-profiles provided with Drupal core.
+Copyright (c) 2016 **_Ayana Powell_**
 
-Installation profiles from the Drupal community modify the installation process
-to provide a website for a specific use case, such as a CMS for media
-publishers, a web-based project tracking tool, or a full-fledged CRM for
-non-profit organizations raising money and accepting donations. They can be
-distributed as bare installation profiles or as "distributions". Distributions
-include Drupal core, the installation profile, and all other required
-extensions, such as contributed and custom modules, themes, and third-party
-libraries. Bare installation profiles require you to download Drupal Core and
-the required extensions separately; place the downloaded profile in the
-/profiles directory before you start the installation process. Note that the
-contents of this directory may be overwritten during updates of Drupal core;
-it is advised to keep code backups or use a version control system.
+This software is licensed under the MIT license.
 
-Additionally, modules and themes may be placed inside subdirectories in a
-specific installation profile such as profiles/your_site_profile/modules and
-profiles/your_site_profile/themes respectively to restrict their usage to only
-sites that were installed with that specific profile.
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-More about installation profiles and distributions:
- * Read about the difference between installation profiles and distributions:
-   http://drupal.org/node/1089736
- * Download contributed installation profiles and distributions:
-   http://drupal.org/project/distributions
- * Develop your own installation profile or distribution:
-   http://drupal.org/developing/distributions
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-APPEARANCE
-----------
-
-In Drupal, the appearance of your site is set by the theme (themes are
-extensions that set fonts, colors, and layout). Drupal core comes with several
-themes. More themes are available for download, and you can also create your own
-custom theme.
-
-More about themes:
- * Download contributed themes to sites/all/themes to modify Drupal's
-   appearance:
-   http://drupal.org/project/themes
- * Develop your own theme:
-   http://drupal.org/documentation/theme
-
-DEVELOPING FOR DRUPAL
----------------------
-
-Drupal contains an extensive API that allows you to add to and modify the
-functionality of your site. The API consists of "hooks", which allow modules to
-react to system events and customize Drupal's behavior, and functions that
-standardize common operations such as database queries and form generation. The
-flexible hook architecture means that you should never need to directly modify
-the files that come with Drupal core to achieve the functionality you want;
-instead, functionality modifications take the form of modules.
-
-When you need new functionality for your Drupal site, search for existing
-contributed modules. If you find a module that matches except for a bug or an
-additional needed feature, change the module and contribute your improvements
-back to the project in the form of a "patch". Create new custom modules only
-when nothing existing comes close to what you need.
-
-More about developing:
- * Search for existing contributed modules:
-   http://drupal.org/project/modules
- * Contribute a patch:
-   http://drupal.org/patch/submit
- * Develop your own module:
-   http://drupal.org/developing/modules
- * Follow best practices:
-   http://drupal.org/best-practices
- * Refer to the API documentation:
-   http://api.drupal.org/api/drupal/7
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
