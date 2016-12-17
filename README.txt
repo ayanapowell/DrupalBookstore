@@ -1,7 +1,7 @@
 Biggy's Books
 By: Ayana Powell
 
-We are a bookstore in Portland, OR! Visit our site to contact us, information, and book reviews. Happy reading!
+An online bookstore and book review site.
 
 Installation
 --------------------------------
